@@ -1,0 +1,71 @@
+{
+    "status": "ok",
+    "totalResults": 5,
+    "articles": [
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": "CBS News",
+            "title": "What to know about the Paris Olympics opening ceremony",
+            "description": "The opening ceremony for the Paris Olympics is less than 24 hours away. CBS Saturday Morning co-host and sports correspondent Dana Jacobson has the latest from the City of Light on the Olympics, and the heightened security measures the city is taking to prote…",
+            "url": "https://www.cbsnews.com/video/paris-olympics-opening-ceremony-what-to-know/",
+            "urlToImage": "https://assets1.cbsnewsstatic.com/hub/i/r/2024/07/26/7a129720-8f2c-4f24-9633-5767a8785cf4/thumbnail/1200x630/5ab52f20ba81b4bf5bc2e124628d4e75/cbsn-fusion-paris-olympics-opening-ceremony-what-to-know-thumbnail.jpg?v=5501038cbc281520ff9fdc308faab7dc",
+            "publishedAt": "2024-07-26T00:42:00+00:00",
+            "content": "Watch CBS News\r\nCopyright ©2024 CBS Interactive Inc. All rights reserved.\r\nGet browser notifications for breaking news, live events, and exclusive reporting.\r\nNot NowTurn On"
+        },
+        {
+            "source": {
+                "id": "cbc-news",
+                "name": "CBC News"
+            },
+            "author": "CBC News",
+            "title": "Canada Soccer suspends women's head coach Priestman for remainder of Paris Olympics | CBC Sports",
+            "description": "Canadian women's soccer head coach Bev Priestman has been suspended for the remainder of the Paris 2024 Olympic Games by Canada Soccer, the organization announced in a statement on Thursday.",
+            "url": "http://www.cbc.ca/sports/olympics/summer/soccer/canada-soccer-priestman-suspended-1.7275945",
+            "urlToImage": "https://i.cbc.ca/1.6362454.1721950826!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_620/1371187151.jpg",
+            "publishedAt": "2024-07-25T23:52:14.721842Z",
+            "content": "Canadian women's soccer head coach Bev Priestman has been suspended for the remainder of the Paris 2024 Olympic Games by Canada Soccer, the organization announced in a statement on Thursday.\r\nAssista… [+693 chars]"
+        },
+        {
+            "source": {
+                "id": "fox-sports",
+                "name": "Fox Sports"
+            },
+            "author": "John Fanta, Michael Cohen",
+            "title": "College basketball roundtable: Michigan State's tourney streak, top transfers and more",
+            "description": "Is Michigan State's NCAA Tournament streak in jeopardy? Who is the top transfer in the nation? FOX Sports' college basketball experts answer that and more.",
+            "url": "http://www.foxsports.com/stories/college-basketball/college-basketball-roundtable-michigan-states-tourney-streak-top-transfers-and-more",
+            "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2024/02/1408/814/2024-02-29_College-Basketball-Roundtable_16x9.jpg?ve=1&tl=1",
+            "publishedAt": "2024-02-29T20:59:30Z",
+            "content": "It's almost time, ladies and gentlemen!\r\nThat long-awaited, fun-filled day when you wait to hear your team's name called before breaking out a pen and paper to fill out your NCAA Tournament bracket i… [+17577 chars]"
+        },
+        {
+            "source": {
+                "id": "bleacher-report",
+                "name": "Bleacher Report"
+            },
+            "author": null,
+            "title": "New Micah Parsons Show ",
+            "description": "Fan easier, fan faster and fan better with Bleacher Report. Keep up with the latest storylines, expert analysis, highlights and scores for all your favorite sports.",
+            "url": "https://bleacherreport.com/videos/490566-the-edge-w-micah-parsons-ep-11-vod",
+            "urlToImage": null,
+            "publishedAt": "2023-11-27T20:37:24.6381564Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "bleacher-report",
+                "name": "Bleacher Report"
+            },
+            "author": null,
+            "title": " Mikal Bridges Interview ",
+            "description": "Fan easier, fan faster and fan better with Bleacher Report. Keep up with the latest storylines, expert analysis, highlights and scores for all your favorite sports.",
+            "url": "https://bleacherreport.com/videos/491103-taylor-rooks-x-mikal-bridges-vod",
+            "urlToImage": null,
+            "publishedAt": "2023-11-27T20:37:24.3882176Z",
+            "content": "Nets star sits down with Taylor Rooks for exclusive convo."
+        }
+    ]
+}
