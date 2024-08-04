@@ -14,8 +14,8 @@ export class News extends Component {
   }
   async componentDidMount()
   {
-    let url = "https://newsapi.org/v2/everything?q=apple&from=2024-07-30&to=2024-07-30&sortBy=popularity&apiKey=f3aaca2500dc4141b36de0fa09556364&page=1&pageSize=12";
-    this.setState({loading:true});
+    let url = `https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=f3aaca2500dc4141b36de0fa09556364&page=${this.state.page}&pageSize=12`;
+    this.setState({loading: true});
     let data = await fetch(url);
     let parseData = await data.json();
     this.setState({
@@ -25,7 +25,7 @@ export class News extends Component {
     });
   }
   handlePrevBtn = async ()=>{
-    let url = `https://newsapi.org/v2/everything?q=apple&from=2024-07-30&to=2024-07-30&sortBy=popularity&apiKey=f3aaca2500dc4141b36de0fa09556364&page=${this.state.page-1}&pageSize=12`;
+    let url = `https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=f3aaca2500dc4141b36de0fa09556364&page=${this.state.page}&pageSize=12`;
     this.setState({loading: true});
     let data = await fetch(url);
     let parseData = await data.json();
@@ -36,12 +36,14 @@ export class News extends Component {
     });
   }
   handleNextBtn = async ()=>{
-      let url = `https://newsapi.org/v2/everything?q=apple&from=2024-07-30&to=2024-07-30&sortBy=popularity&apiKey=f3aaca2500dc4141b36de0fa09556364&page=${this.state.page+1}&pageSize=12`;
+      let url = `https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=f3aaca2500dc4141b36de0fa09556364&page=${this.state.page}&pageSize=12`;
+      this.setState({loading: true});
       let data = await fetch(url);
       let parseData = await data.json();
       this.setState({
         articles:parseData.articles,
-        page: this.state.page+1
+        page: this.state.page+1,
+        loading: false
       });
     
   }

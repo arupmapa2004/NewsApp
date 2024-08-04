@@ -5,7 +5,7 @@ function App() {
   return (
      <>
      <Navbar/>
-     <News/>
+     <News category="business"/>
      </>
   );
 }
