@@ -3,14 +3,18 @@ import { NewsItem } from './NewsItem';
 import { Spiner } from './Spiner';
 
 export class News extends Component {
-  constructor()
+   capitalizeFirstLetter = (string)=>{
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+  constructor(props)
   {
-    super();
+    super(props);
     this.state = {
        articles : [],
        page : 1,
        loading: false
     }
+    document.title = `NewsMonkey-${this.capitalizeFirstLetter(this.props.category)}`;
   }
   async updateNews() {
     let url = `https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=f3aaca2500dc4141b36de0fa09556364&page=${this.state.page}&pageSize=${this.props.pageSize}`;
@@ -43,7 +47,7 @@ export class News extends Component {
     return (
       <>
         <div className='container mb-7' style={{marginTop:"60px"}}> 
-          <h1>NewsMonkey - Top Headlines</h1>
+          <h1>NewsMonkey - Top {this.capitalizeFirstLetter(this.props.category)} Headlines</h1>
           {this.state.loading && <Spiner/>}
           <div className='container my-3'>
             <div className='row' >
